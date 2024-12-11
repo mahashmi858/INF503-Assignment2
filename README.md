@@ -1,3 +1,13 @@
+
+This code was used to reproduce the study made by Yoo et al. (2022) found at the following link: https://aclanthology.org/2022.findings-acl.289/
+
+* The dataset can be downloaded using the google drive link below
+* serveral bash scripts can be found in this repo that were used to test and reproduce the study results
+* for this study lastrun_imdb.sh was used
+* results can be found inside the runs folder
+* the environment setup had to be remade and a new yaml file was generated (myenv.yaml) use that to setup the expirement environment
+
+
 # Detection of Adversarial Examples in NLP: Benchmark and Baseline via Robust Density Estimation
 
 Official code and dataset for *Detection of Adversarial Examples in NLP: Benchmark and Baseline via Robust Density Estimation*.
