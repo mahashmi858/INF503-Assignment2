@@ -7,6 +7,7 @@ This code was used to reproduce the study made by Yoo et al. (2022) found at the
 * results can be found inside the runs folder
 * the environment setup had to be remade and a new yaml file was generated (myenv.yaml) use that to setup the expirement environment
 
+**Please note that this repository uses the code from the aclanthology [website](https://aclanthology.org/2022.findings-acl.289/). the following [github link](https://github.com/bangawayoo/adversarial-examples-in-text-classification) has slightly altered files than the original file and it caused some issues. that's why I decided to go witht eh acl software file**
 
 # Detection of Adversarial Examples in NLP: Benchmark and Baseline via Robust Density Estimation
 
