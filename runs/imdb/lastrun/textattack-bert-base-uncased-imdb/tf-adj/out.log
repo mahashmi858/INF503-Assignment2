@@ -1,0 +1,29 @@
+INFO:log:Args: {'dataset': 'imdb', 'target_model': 'textattack/bert-base-uncased-imdb', 'model_type': 'bert', 'scenario': 's1', 'include_fae': False, 'use_val': False, 'cov_estimator': 'MCD', 'attack_type': 'tf-adj', 'exp_name': 'lastrun', 'fpr_threshold': 0.1, 'baseline': False, 'visualize': True, 'model_params_path': 'params/reduce_dim_100.json', 'PCA_dim': None, 'MCD_h': None, 'gpu': '0', 'start_seed': 0, 'end_seed': 1, 'mnli_option': 'matched', 'preprocess': 'standard', 'data_type': 'standard', 'pkl_test_path': ' ', 'pkl_val_path': ' ', 'log_path': 'runs/imdb/lastrun/textattack-bert-base-uncased-imdb/tf-adj'}
+INFO:log:Using params...
+INFO:log:{'shared_cov': False, 'reduce_dim': {'do': True, 'method': 'PCA', 'kernel': 'rbf', 'dim': 100}, 'sample': True, 'scaler': False, 'layer_param': {'cls_layer': -1, 'num_layer': 1}, 'h': None}
+INFO:log:Loading textattack/bert-base-uncased-imdb
+INFO:log:Elapsed time for model fitting : 85.2428092956543
+INFO:log:Args: {'dataset': 'imdb', 'target_model': 'textattack/bert-base-uncased-imdb', 'model_type': 'bert', 'scenario': 's1', 'include_fae': False, 'use_val': False, 'cov_estimator': 'MCD', 'attack_type': 'tf-adj', 'exp_name': 'lastrun', 'fpr_threshold': 0.1, 'baseline': False, 'visualize': True, 'model_params_path': 'params/reduce_dim_100.json', 'PCA_dim': None, 'MCD_h': None, 'gpu': '0', 'start_seed': 0, 'end_seed': 0, 'mnli_option': 'matched', 'preprocess': 'standard', 'data_type': 'standard', 'pkl_test_path': ' ', 'pkl_val_path': ' ', 'log_path': 'runs/imdb/lastrun/textattack-bert-base-uncased-imdb/tf-adj'}
+INFO:log:Using params...
+INFO:log:{'shared_cov': False, 'reduce_dim': {'do': True, 'method': 'PCA', 'kernel': 'rbf', 'dim': 100}, 'sample': True, 'scaler': False, 'layer_param': {'cls_layer': -1, 'num_layer': 1}, 'h': None}
+INFO:log:Loading textattack/bert-base-uncased-imdb
+INFO:log:Elapsed time for model fitting : 111.70889353752136
+INFO:log:Args: {'dataset': 'imdb', 'target_model': 'textattack/bert-base-uncased-imdb', 'model_type': 'bert', 'scenario': 's1', 'include_fae': False, 'use_val': False, 'cov_estimator': 'MCD', 'attack_type': 'tf-adj', 'exp_name': 'lastrun', 'fpr_threshold': 0.1, 'baseline': False, 'visualize': False, 'model_params_path': 'params/reduce_dim_100.json', 'PCA_dim': None, 'MCD_h': None, 'gpu': '0', 'start_seed': 0, 'end_seed': 0, 'mnli_option': 'matched', 'preprocess': 'standard', 'data_type': 'standard', 'pkl_test_path': ' ', 'pkl_val_path': ' ', 'log_path': 'runs/imdb/lastrun/textattack-bert-base-uncased-imdb/tf-adj'}
+INFO:log:Using params...
+INFO:log:{'shared_cov': False, 'reduce_dim': {'do': True, 'method': 'PCA', 'kernel': 'rbf', 'dim': 100}, 'sample': True, 'scaler': False, 'layer_param': {'cls_layer': -1, 'num_layer': 1}, 'h': None}
+INFO:log:Loading textattack/bert-base-uncased-imdb
+INFO:log:Elapsed time for model fitting : 98.78073120117188
+INFO:log:Seed=0
+INFO:log:Splitting attack-log\original\imdb\bert\tf-adj\bert-base-uncased-imdb_tf-adj.csv
+INFO:log:test/val split saved in cache
+INFO:log:Percentage of adv. samples :394/788 = 0.500000
+INFO:log:-----Results-----
+INFO:log:Using MLE estimator
+INFO:log:TPR at FPR=0.1 : 0.987
+INFO:log:F1 : 0.957, prec: 0.928, recall: 0.987
+INFO:log:AUC: 0.981
+INFO:log:-----Results-----
+INFO:log:Using MCD estimator
+INFO:log:TPR at FPR=0.1 : 0.987
+INFO:log:F1 : 0.946, prec: 0.909, recall: 0.987
+INFO:log:AUC: 0.990
